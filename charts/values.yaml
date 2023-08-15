@@ -1,0 +1,6 @@
+# In this file, set default parameters which are NOT specific to environment(e.g. dev/staging/production)
+
+argoNamespace: argocd
+manuallyCreatedAppNamespace: manually-created
+
+manuallyCreatedAppRepoUrl: https://gitlab.com/nanuchi/argocd-app-config.git
