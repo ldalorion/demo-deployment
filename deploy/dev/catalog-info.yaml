@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: coinflip-job
+  description: The container deep inside this Job will simulate a flip of a coin.  50% of the time it'll succeed, and 50% of the time it'll fail.
+spec:
+  type: job
+  owner: team-platform
+  dependencyOf: squad-platform-planning
