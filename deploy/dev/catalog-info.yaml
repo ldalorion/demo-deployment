@@ -6,4 +6,4 @@ metadata:
 spec:
   type: job
   owner: team-platform
-  dependencyOf: squad-platform-planning
+  dependencyOf: component:squad-platform-planning
